@@ -1,0 +1,22 @@
+{
+  "name": "people-cat-app",
+  "version": "1.0.0",
+  "description": "People and their cat list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "mocha --watch --reporter progress \"app/**/*.test.js \" "
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Siva Kandaraj",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0"
+  }
+}
